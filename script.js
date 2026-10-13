@@ -97,8 +97,8 @@ function renderCart() {
 image.className = "cart-item-image";
 image.src = item.image || (
   item.id === "leather"
-    ? "./Imagies/burgundy-jacket.png.png"
-    : "./Imagies/wool-jacket.png.png"
+    ? "./burgundy-jacket.png.png"
+    : "./wool-jacket.png.png"
 );
 image.alt = item.name;
 image.loading = "lazy";
